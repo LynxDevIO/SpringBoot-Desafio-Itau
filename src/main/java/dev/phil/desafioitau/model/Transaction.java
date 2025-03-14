@@ -1,21 +1,21 @@
-package dev.phil.desafioitau;
+package dev.phil.desafioitau.model;
 
 import java.time.OffsetDateTime;
 
 public class Transaction {
     private double valor;
-    private OffsetDateTime datahora;
+    private OffsetDateTime dataHora;
 
-    public Transaction(double valor, OffsetDateTime datahora) {
+    public Transaction(double valor, OffsetDateTime dataHora) {
         this.valor = valor;
-        this.datahora = datahora;
+        this.dataHora = dataHora;
     }
 
     public double getValor() {
         return valor;
     }
 
-    public OffsetDateTime getDatahora() {
-        return datahora;
+    public OffsetDateTime getDataHora() {
+        return dataHora;
     }
 }
